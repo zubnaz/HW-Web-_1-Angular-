@@ -1,0 +1,73 @@
+div.info {
+    display: flex;
+    flex-direction: column;
+    background-color: slategray;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    div {
+        font-size: 100px;
+        color: lightgreen;
+
+        display: flex;
+        justify-content: center;
+
+        input {
+            outline: none;
+            border: none;
+            background-color: slategray;
+            font-size: 100px;
+            color: lightgreen;
+            width: 20%;
+
+            &::placeholder {
+                color: rgb(174, 223, 174);
+                text-transform: uppercase;
+            }
+        }
+    }
+
+}
+
+div.heroes {
+    background-color: slategray;
+
+    h2 {
+        text-align: center;
+        font-size: 100px;
+        color: lightgreen;
+    }
+
+
+    ul {
+        list-style-type: none;
+
+        li {
+            width: 100%;
+
+            button {
+                outline: none;
+                border: none;
+                background-color: slategray;
+                border: 1px solid lightgreen;
+                padding: 30px;
+                color: lightgreen;
+                font-size: 70px;
+                margin-bottom: 10px;
+                width: 100%;
+
+
+                span {
+                    margin: 10px;
+
+                }
+            }
+
+            transition: all 0.5s;
+
+            :hover {
+                background-color: rgb(65, 105, 145);
+            }
+        }
+    }
+}
